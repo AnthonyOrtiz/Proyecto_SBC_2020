@@ -1,0 +1,25 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:myVocab="http://example.org/ontology#"
+    xmlns:myData="http://example.org/data/">
+  <myVocab:Course rdf:about="http://example.org/data/sbc2020">
+    <myVocab:participantsList rdf:parseType="Resource">
+      <myVocab:participant>
+        <myVocab:Student rdf:about="http://example.org/data/Zoila_Romero">
+          <myVocab:studentName>Zoila Romero</myVocab:studentName>
+        </myVocab:Student>
+      </myVocab:participant>
+      <myVocab:participant>
+        <myVocab:Student rdf:about="http://example.org/data/Martina_Peña">
+          <myVocab:studentName>Martina Peña</myVocab:studentName>
+        </myVocab:Student>
+      </myVocab:participant>
+      <myVocab:participant>
+        <myVocab:Student rdf:about="http://example.org/data/Ana_Abad">
+          <myVocab:studentName>Ana Abad</myVocab:studentName>
+        </myVocab:Student>
+      </myVocab:participant>
+    </myVocab:participantsList>
+    <myVocab:courseName>Sistemas Basados en Conocimientos</myVocab:courseName>
+  </myVocab:Course>
+</rdf:RDF>

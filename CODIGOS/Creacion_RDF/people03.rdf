@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:myData="http://example.org/data/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:Person rdf:about="http://example.org/data/person01">
+    <foaf:member>
+      <dbo:EducationalOrganization rdf:about="http://example.org/data/UTPL">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <vcard:FN>Universidad Técnica Particular de Loja</vcard:FN>
+      </dbo:EducationalOrganization>
+    </foaf:member>
+    <foaf:name>Luis Castro</foaf:name>
+    <vcard:Family>Castro</vcard:Family>
+    <vcard:Given>Luis</vcard:Given>
+    <vcard:FN>Luis Castro</vcard:FN>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#AGENT"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://example.org/data/person02">
+    <foaf:member rdf:resource="http://example.org/data/UTPL"/>
+    <rdf:type rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#AGENT"/>
+    <vcard:Family>Burgos</vcard:Family>
+    <vcard:Given>Carla</vcard:Given>
+    <vcard:FN>Carla Burgos</vcard:FN>
+  </foaf:Person>
+</rdf:RDF>
